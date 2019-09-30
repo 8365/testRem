@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-size: 0.32rem;
+        }
+
+        ul, li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            width: 7.5rem;
+            height: 0.88rem;
+            background-color: #eaeaea;
+            border-bottom: 1px solid #333;
+        }
+
+        .navbar > div {
+            float: left;
+            font-size: 0.32rem;
+            height: 0.88rem;
+            line-height: 0.88rem;
+            text-align: center;
+        }
+
+        .navbar .nav-left {
+            width: 1rem;
+        }
+
+        .navbar .nav-title {
+            width: 5.5rem;
+        }
+
+        .navbar .nav-right {
+            width: 1rem;
+        }
+
+        .tabbar {
+            width: 7.5rem;
+            height: 0.98rem;
+            background-color: #eaeaea;
+            border-top: 1px solid #333;
+            position: fixed;
+            bottom: 0;
+
+        }
+
+        .tabbar ul li {
+            display: block;
+            float: left;
+            width: 1.825rem;
+            text-align: center;
+            line-height: 0.98rem;
+
+        }
+
+        .box > div {
+            float: left;
+            overflow: hidden;
+        }
+
+        .s1 {
+            width: 7.5rem;
+            height: 3.75rem;
+            background-color: lightblue;
+        }
+
+        .s2 {
+            width: 3.75rem;
+            height: 3.75rem;
+            background-color: lightcoral;
+
+        }
+
+        .s3 {
+            width: 3.75rem;
+            height: 3.75rem;
+            background-color: lightgoldenrodyellow;
+        }
+
+        .content ul li {
+            height: 0.80rem;
+            width: 7.5rem;
+            display: block;
+            float: left;
+            border-bottom: 1px solid #555;
+            line-height: 0.80rem;
+            padding-left: 0.1rem;
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="nav-left">[#]</div>
+    <div class="nav-title">标题</div>
+    <div class="nav-right">设置</div>
+</div>
+<div class="content">
+    <div class="s1">轮播图</div>
+    <div class="box">
+        <div class="s2">热门1</div>
+        <div class="s3">热门2</div>
+    </div>
+    <ul>
+        <li>商品1</li>
+        <li>商品2</li>
+        <li>商品3</li>
+    </ul>
+</div>
+<div class="tabbar">
+    <ul>
+        <li>首页</li>
+        <li>分类</li>
+        <li>购物车</li>
+        <li>我的</li>
+    </ul>
+</div>
+
+</body>
+</html>
